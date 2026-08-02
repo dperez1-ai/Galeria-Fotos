@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Galería de Fotos</h1>
+
+    <div id="image">
+        Pase el mouse (o use Tab) sobre una imagen para verla aquí.
+    </div>
+
+    <img class="preview" alt="Perro jugando en el parque"
+        src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Gato descansando sobre una manta"
+        src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=400"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Atardecer sobre las montañas"
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Taza de café sobre una mesa de madera"
+        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Calle empedrada de una ciudad europea"
+        src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=400"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Plato de pasta recién preparado"
+        src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <script src="script.js"></script>
+</body>
+</html>
